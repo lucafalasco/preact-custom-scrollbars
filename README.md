@@ -4,7 +4,7 @@ preact-custom-scrollbars
 This is a port of malte-wessel's  [react-custom-scrollbars](https://github.com/malte-wessel/react-custom-scrollbars) for [Preact](https://github.com/developit/preact)
 
 
-[![npm](https://img.shields.io/badge/npm-preact--custom--scrollbars-brightgreen.svg?style=flat-square)]()
+![npm](https://img.shields.io/badge/npm-preact--custom--scrollbars-brightgreen.svg?style=flat-square)
 [![npm version](https://img.shields.io/npm/v/preact-custom-scrollbars.svg?style=flat-square)](https://www.npmjs.com/package/preact-custom-scrollbars)
 [![npm downloads](https://img.shields.io/npm/dm/preact-custom-scrollbars.svg?style=flat-square)](https://www.npmjs.com/package/preact-custom-scrollbars)
 
@@ -18,7 +18,7 @@ This is a port of malte-wessel's  [react-custom-scrollbars](https://github.com/m
 * no extra stylesheets
 * well tested, 100% code coverage
 
-**[Demos](http://lucafalasco.github.io/preact-custom-scrollbars/) · [Documentation](https://github.com/lucafalasco/preact-custom-scrollbars/tree/master/docs)**
+**[Documentation](https://github.com/lucafalasco/preact-custom-scrollbars/tree/master/docs)**
 
 ## Installation
 ```bash
