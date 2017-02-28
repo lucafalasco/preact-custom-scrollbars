@@ -4,7 +4,7 @@ preact-custom-scrollbars
 This is a port of malte-wessel's  [react-custom-scrollbars](https://github.com/malte-wessel/react-custom-scrollbars) for [Preact](https://github.com/developit/preact)
 
 
-![npm](https://img.shields.io/badge/npm-preact--custom--scrollbars-brightgreen.svg?style=flat-square)
+[![npm](https://img.shields.io/badge/npm-preact--custom--scrollbars-brightgreen.svg?style=flat-square)](https://www.npmjs.com/package/preact-custom-scrollbars)
 [![npm version](https://img.shields.io/npm/v/preact-custom-scrollbars.svg?style=flat-square)](https://www.npmjs.com/package/preact-custom-scrollbars)
 [![npm downloads](https://img.shields.io/npm/dm/preact-custom-scrollbars.svg?style=flat-square)](https://www.npmjs.com/package/preact-custom-scrollbars)
 
@@ -31,7 +31,7 @@ yarn add preact-custom-scrollbars
 
 This assumes that you’re using [npm](http://npmjs.com/) or [yarn](https://yarnpkg.com/lang/en/) package manager with a module bundler like [Webpack](http://webpack.github.io) or [Browserify](http://browserify.org/) to consume [CommonJS modules](http://webpack.github.io/docs/commonjs.html).
 
-If you don’t yet use [npm](http://npmjs.com/) or a modern module bundler, and would rather prefer a single-file [UMD](https://github.com/umdjs/umd) build that makes `ReactCustomScrollbars` available as a global object, you can grab a pre-built version from [unpkg](https://unpkg.com/preact-custom-scrollbars@3.0.1/dist/preact-custom-scrollbars.js). We *don’t* recommend this approach for any serious application, as most of the libraries complementary to `preact-custom-scrollbars` are only available on [npm](http://npmjs.com/).
+If you don’t yet use [npm](http://npmjs.com/) or a modern module bundler, and would rather prefer a single-file [UMD](https://github.com/umdjs/umd) build that makes `PreactCustomScrollbars` available as a global object, you can grab a pre-built version from [unpkg](https://unpkg.com/preact-custom-scrollbars/dist/preact-custom-scrollbars.js). We *don’t* recommend this approach for any serious application, as most of the libraries complementary to `preact-custom-scrollbars` are only available on [npm](http://npmjs.com/).
 
 ## Usage
 
