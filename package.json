@@ -1,6 +1,6 @@
 {
   "name": "preact-custom-scrollbars",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "description": "Preact scrollbars component",
   "main": "lib/index.js",
   "scripts": {
