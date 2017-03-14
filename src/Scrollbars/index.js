@@ -71,10 +71,26 @@ export default class Scrollbars extends Component {
   }
 
   componentWillUnmount = () => {
+    this.unsetDomStyles()
     this.removeListeners()
     caf(this.requestFrame)
     clearTimeout(this.hideTracksTimeout)
     clearInterval(this.detectScrollingInterval)
+  }
+
+  unsetDomStyles () {
+    const { thumbHorizontal, thumbVertical, trackHorizontal, trackVertical } = this.refs
+    const stylesReset = {
+      width: '',
+      height: '',
+      transform: '',
+      opacity: '',
+      visibility: ''
+    }
+    css(thumbVertical, stylesReset)
+    css(thumbHorizontal, stylesReset)
+    css(trackVertical, stylesReset)
+    css(trackHorizontal, stylesReset)
   }
 
   getScrollLeft = () => {
